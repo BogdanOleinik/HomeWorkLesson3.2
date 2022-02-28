@@ -23,7 +23,7 @@ struct Sliders: View {
                     valueText = "\(lround(newValue))"
                 }
             
-            TextField(textValue: $valueText, doubleValue: $valueSlider)
+            TextFields(textValue: $valueText, doubleValue: $valueSlider)
         }
     }
 }

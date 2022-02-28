@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TextField: View {
+struct TextFields: View {
     
     @State var alert = false
     
@@ -41,7 +41,7 @@ struct TextFields_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.black
-            TextField(textValue: .constant("100"), doubleValue: .constant(128.0))
+            TextFields(textValue: .constant("100"), doubleValue: .constant(128.0))
         }
     }
 }
