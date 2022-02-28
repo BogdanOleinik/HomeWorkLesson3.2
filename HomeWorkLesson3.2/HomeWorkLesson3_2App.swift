@@ -11,7 +11,7 @@ import SwiftUI
 struct HomeWorkLesson3_2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(red: 50, green: 50, blue: 50)
         }
     }
 }
