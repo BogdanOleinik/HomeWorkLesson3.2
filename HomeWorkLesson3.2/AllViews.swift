@@ -14,7 +14,6 @@ struct AllViews: View {
     @State private var blue = Double.random(in: 0...255)
     
     var body: some View {
-        NavigationView {
             ZStack {
                 Color.black.ignoresSafeArea()
                 
@@ -32,7 +31,6 @@ struct AllViews: View {
             }
         }
     }
-}
 
 struct AllViews_Previews: PreviewProvider {
     static var previews: some View {
